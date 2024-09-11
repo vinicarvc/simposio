@@ -78,7 +78,7 @@
 }
 
 .main {
-  background-image: url("/public/assets/img/backgroundmobile.png");
+  background-image: url("https://github.com/vinicarvc/simposio/blob/main/public/assets/img/backgroundmobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 330px;
@@ -419,7 +419,7 @@ a {
 /*DESKTOP CSS*/
 
 .header-desk {
-  background-image: url("/public/assets/img/banner1.png");
+  background-image: url("https://github.com/vinicarvc/simposio/blob/main/public/assets/img/matildebanner1.png");
   padding: 6rem;
   background-repeat: no-repeat;
   background-size: cover;
