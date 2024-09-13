@@ -242,7 +242,6 @@
   color: var(--brown);
 }
 
-
 .about-professor p {
   text-align: left;
   color: var(--white);
@@ -419,17 +418,16 @@ a {
 /*DESKTOP CSS*/
 
 .header-desk {
-  background-image: url('https://raw.githubusercontent.com/vinicarvc/simposio/main/img/matildebanner1.png');
+  background-image: url("https://raw.githubusercontent.com/vinicarvc/simposio/main/img/matildebanner1.png");
   padding: 6rem;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white);
 }
 
-.logos-desk{
+.logos-desk {
   display: flex;
   align-items: baseline;
-
 }
 
 .logo-desk {
@@ -450,8 +448,19 @@ a {
   width: 742px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
+
+.main-date-desk {
+  background-color: var(--white);
+  font-size: 25px;
+  padding: 0.5rem;
+  width: 70%;
+  font-weight: bold;
+  color: var(--brown);
+  text-align: center;
+}
+
 .header-desk h1 {
   font-size: 48px;
   font-weight: bolder;
@@ -506,7 +515,7 @@ a {
   gap: 20px;
 }
 
-.teachers{
+.teachers {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -515,11 +524,11 @@ a {
   margin-bottom: 70px;
 }
 
-.teachers img{
+.teachers img {
   width: 70%;
 }
 
-.teachers-container{
+.teachers-container {
   width: 29%;
 }
 
@@ -855,12 +864,38 @@ a {
     width: 80%;
   }
 
-  .teachers{
+  .teachers {
     margin-bottom: 20px;
   }
 
-  .teachers-container{
+  .teachers-container {
     width: 100%;
+  }
+}
+
+@media (max-width: 1102px) {
+  .header-desk {
+    padding: 2rem;
+  }
+
+  .about-desk {
+    padding: 2rem;
+  }
+
+  .schedule-desk {
+    padding: 2rem;
+  }
+
+  .course-desk {
+    padding: 2rem;
+  }
+
+  .price-desk {
+    padding: 2rem;
+  }
+
+  .baseboard-desk {
+    padding: 2rem;
   }
 }
 
