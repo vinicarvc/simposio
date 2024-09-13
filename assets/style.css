@@ -420,7 +420,7 @@ a {
 /*DESKTOP CSS*/
 
 .header-desk {
-  background-image: url("/img/banner_novo.png");
+  background-image: url("https://raw.githubusercontent.com/vinicarvc/simposio/main/img/banner_novo.png");
   padding: 6rem;
   background-repeat: no-repeat;
   background-size: cover;
