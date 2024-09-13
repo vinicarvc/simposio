@@ -87,14 +87,6 @@
   font-weight: bold;
 }
 
-.main {
-  background-image: url("https://raw.githubusercontent.com/vinicarvc/simposio/main/img/backgroundmobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 330px;
-  margin-top: -9%;
-}
-
 .button-whatsapp {
   color: var(--white);
   background-color: var(--green);
@@ -428,7 +420,7 @@ a {
 /*DESKTOP CSS*/
 
 .header-desk {
-  background-image: url("https://raw.githubusercontent.com/vinicarvc/simposio/main/img/matildebanner1.png");
+  background-image: url("/img/banner_novo.png");
   padding: 6rem;
   background-repeat: no-repeat;
   background-size: cover;
